@@ -1,1 +1,1 @@
-# pod_test_repo
+# pod6_repo
