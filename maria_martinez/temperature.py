@@ -13,7 +13,9 @@ print((34.2-32)*(5/9))
 print((5*(9/5))+32)
 
 #What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
-print('30.2 ℃ to fahrenheit:')
-print(((30.2*(9/5))+32))
+#learned to use str() function to convert a int to a str to be able to concat a string and int to gether
+cToF=str((30.2*(9/5))+32)
+print('30.2 ℃ to fahrenheit: '+cToF)
+
 print('30.2 ℃ is greater than 85.1 ℉')
 
