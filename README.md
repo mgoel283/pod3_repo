@@ -18,7 +18,7 @@ From inside the folder where the challenge file is:
 
 `cp [FILE NAME TO COPY] [DESTINATION OF COPY]`
 
-`cp temperature.py ../../serena_killion_folder`
+`cp temperature.py ../../manav_goel`
 
 
 # To do after you complete your challenge:
@@ -27,9 +27,9 @@ From inside the folder where the challenge file is:
 
 Create your own branch. A good branch name should describe be description.
 for our purposes, using your name and the challenge name is sufficient. 
-For example: `serena-temperature`
+For example: `manav-temperature`
 
-- `git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b serena-temperature`
+- `git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b manav-temperature`
 
 - `git status` -> check for new or modified files
 - `git add [FILE NAME]` --> add file so git will track it
