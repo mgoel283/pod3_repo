@@ -80,3 +80,5 @@ print(f"Harden's percentage in string form {str(hardenAverage)}")
 print(f"Murray's percentage in int conversion form {int(murrayAverage)}")
 print(f"VanVleet's percentage in int conversion form {int(VanVleetAverage)}")
 print(f"Harden's percentage in int conversion form {int(hardenAverage)}")
+
+print(not int(0.5))
