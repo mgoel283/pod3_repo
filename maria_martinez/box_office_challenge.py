@@ -45,5 +45,9 @@ print(len(top_100))
 
 # TODO: Let's convert the list "top_100" back into a string. Assign it to a variable called "top_100_str".
 # Note: Print your new variable to see the string version of the movies
-top_100_str=', '.join(top_100)
+top_100_str=','.join(top_100)
 print(top_100_str)
+# print(len(top_100_str))
+# convertStrToList=top_100_str.split(',')
+# print(top_100_str)
+# print(len(convertStrToList)-1)
