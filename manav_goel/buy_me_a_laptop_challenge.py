@@ -77,12 +77,10 @@ laptops = [
 # TODO: Write code to print out the MacBook Pro url 
 print(laptops[0]["url"])
 # TODO: Write code to print all possible prices of the 16-inch MacBook Pro.
-for laptop_type in laptops[0]["types"]:
-    print(laptop_type["price"])
+print(laptops[0]["types"][1]["price"])
 
 # TODO: Write code to print all the color options for Dell XPS 13.
-for laptop_type in laptops[1]["types"]:
-    print(laptop_type["colors"])
+print(laptops[1]["types"][0]["colors"])
 
 # TODO: Write code to print the description of Dell XPS laptop.
 print(laptops[1]["description"])
