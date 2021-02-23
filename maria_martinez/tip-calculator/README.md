@@ -14,6 +14,6 @@ python3 calculations.py
 import foobar
 
 ## Video Walkthrough
-<img src='https://github.com/mgoel283/pod3_repo/blob/tip-calculator/maria_martinez/tip-calculator/tip-calculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='tip-calculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
