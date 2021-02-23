@@ -7,12 +7,6 @@ Tip Calculator is a simple calculator that calculates the bill by percentage of 
 ```bash
 python3 calculations.py
 ```
-
-## Usage
-
-```python
-import foobar
-
 ## Video Walkthrough
 <img src='tip-calculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
