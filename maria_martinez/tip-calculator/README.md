@@ -1,7 +1,9 @@
 # Tip Calculator
 
-Tip Calculator is a simple calculator that calculates the bill by percentage of tip amount the user would like to give and return how much is the tip and bill per person
-
+Tip Calculator is a simple calculator created in python
+- program calculates 
+    - tip per person
+    - total amount per person
 ## Run
 
 ```bash
