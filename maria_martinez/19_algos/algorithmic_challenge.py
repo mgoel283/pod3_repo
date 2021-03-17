@@ -63,25 +63,26 @@ made the algorithm more efficient?
 
 def contains_duplicates(my_list):
     newArr = []
-    trueOrFalse = True
+    trueOrFalse = False
     for i in range(0,len(my_list)):
         if my_list[i] not in newArr:
            newArr.append(my_list[i])
         else:
-            trueOrFalse = False
+            trueOrFalse = True
     return trueOrFalse
 
-#this test case will print true
+my_list_V1 = [5,2,3,4,8]#flase
+my_list_V2 = [5,2,3,4,5,8]#true
+
+#this test case will print flase
 startTime = time.time()
-my_list = [5,2,3,4,8]
-duplicates = contains_duplicates(my_list)
+duplicates = contains_duplicates(my_list_V1)
 print(duplicates)
 print(time.time()- startTime)#this will be subtract the end time with the start time and return the value in seconds
 
-#this test case will print false
+#this test case will print true
 startTime = time.time()
-my_list = [5,2,3,4,5,8]
-duplicates = contains_duplicates(my_list)
+duplicates = contains_duplicates(my_list_V2)
 print(duplicates)
 print(time.time()- startTime)#this will be subtract the end time with the start time and return the value in seconds
 # TODO Write the time complexity
@@ -99,16 +100,14 @@ def contains_duplicates_linear(my_list):
         seen[item] = item
     return False
 
-#this test case will print true
+#this test case will print false
 startTime = time.time()
-my_list = [5,2,3,4,8]
-duplicates = contains_duplicates(my_list)
+duplicates = contains_duplicates_linear(my_list_V1)
 print(duplicates)
 print(time.time()- startTime)#this will be subtract the end time with the start time and return the value in seconds
 
-#this test case will print false
+#this test case will print true
 startTime = time.time()
-my_list = [5,2,3,4,5,8]
-duplicates = contains_duplicates(my_list)
+duplicates = contains_duplicates_linear(my_list_V2)
 print(duplicates)
 print(time.time()- startTime)#this will be subtract the end time with the start time and return the value in seconds
