@@ -84,10 +84,10 @@ print()
 # Hint: there is a way to do this with one line of code
 print('QUESTION 5\n')
 
-for item in my_list: # used a for-loop to specifically print out each item from the list
+for item in my_list: 
 	print(item)
 
-
+# used a for-loop to specifically print out each item from the list
 
 # 5B. Comment your code in 5A to convince yourself you understand how it works
 
