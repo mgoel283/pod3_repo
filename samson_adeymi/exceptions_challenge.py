@@ -81,3 +81,6 @@ except NameError:
     print('You got to run this exception block! Your challenge is completed!')
 except:
     print('You should not be seeing this print statement. Try a different solution!')
+
+def hamlet_says 
+    print("to be or not tobe ")
